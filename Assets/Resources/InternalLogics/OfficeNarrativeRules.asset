@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6894f105b4cc4bb418f099545e34623d, type: 3}
+  m_Name: OfficeNarrativeRules
+  m_EditorClassIdentifier: 
+  ThemePreset: 2
+  Titles:
+  - Senator
+  - Representative
+  - Secretary
+  - Director
+  - Agent
+  FirstNames:
+  - Don Jr
+  - Obama
+  - Biden
+  - JFK
+  - Kamala
+  - Pelosi
+  - Pence
+  - Bernie
+  Roles:
+  - Advisor
+  - Lobbyist
+  - Analyst
+  - Speechwriter
+  - Operative
+  - Press Secretary
+  Traits:
+  - Charismatic
+  - Cunning
+  - Ruthless
+  - Diplomatic
+  - Paranoid
+  - Ambitious
+  - Calculating
+  - Loyal
+  BackstoryTemplates:
+  - '{name}, a veteran {role}, has served three administrations and trusts nobody.'
+  - After the {location} scandal, {name} was moved here to keep {item} under wraps.
+  - '{name} has been a {role} since the {enemy} incident and has never been the same.'
+  - Once a powerful {role}, {name} now hides in the {location} pulling strings.
+  EnemyNames:
+  - Rogue Agent
+  - Double Agent
+  - Whistleblower
+  - Opposition Leader
+  - Mole
+  ItemNames:
+  - Classified Document
+  - USB Drive
+  - Sealed Envelope
+  - Briefcase
+  - Security Badge
+  LocationNames:
+  - Oval Office
+  - War Room
+  - Senate Floor
+  - Archives
+  - Situation Room
+  - Press Room
+  QuestNameTemplates:
+  - Operation {location}
+  - The {item} Affair
+  - Deep State {enemy}
+  - 'Executive Order: {location}'
+  - The {location} Scandal
+  TalkAndKillStep1:
+  - Meet with {npc} in the {location} for a classified briefing.
+  - Speak with {npc} about the {enemy} operating in the {location}.
+  TalkAndKillStep2:
+  - Eliminate the {enemy} before they leak from the {location}.
+  - Take out the {enemy} hiding in the {location}.
+  FetchAndDeliverStep1:
+  - Retrieve the {item} from the {location} before it is destroyed.
+  - Secure the {item} left in the {location}.
+  FetchAndDeliverStep2:
+  - Deliver the {item} to {npc} in the {location}.
+  - Hand the {item} to {npc} personally. Trust no one else.
+  ExploreAndReportStep1:
+  - Sweep the {location} for surveillance devices.
+  - Investigate the {location} for evidence of the {enemy}.
+  ExploreAndReportStep2:
+  - Report intel to {npc} in the {location}.
+  - Debrief {npc} on what you found in the {location}.
+  EnvironmentalNoteTemplates:
+  - 'A memo stamped CLASSIFIED: The {item} must not leave the {location}.'
+  - 'Post-it note: Trust no one in the {location}. The {enemy} has infiltrated.'
+  - 'Shredded document fragment: ...{enemy} compromised... {item} missing from {location}...'
+  - 'A redacted report: [REDACTED] confirms {enemy} has access to the {location}.'
+  - 'Handwritten note: If I go missing, the {item} is hidden in the {location}.'

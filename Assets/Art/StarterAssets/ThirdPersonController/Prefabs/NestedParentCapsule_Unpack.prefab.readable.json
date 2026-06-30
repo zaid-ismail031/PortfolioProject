@@ -1,0 +1,986 @@
+T²;({
+  "Name": "NestedParentCapsule_Unpack (GameObject)",
+  "Active": "True",
+  "Layer": "Default",
+  "Tag": "Untagged",
+  "Components": [
+    {
+      "Name": "Transform (Component)",
+      "Parameters": {
+        "Transform": {
+          "serializedVersion": "2",
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.93,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_ConstrainProportionsScale": false,
+          "m_LocalEulerAnglesHint": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "Children": [
+    {
+      "Name": "MainCamera (GameObject)",
+      "Active": "True",
+      "Layer": "Default",
+      "Tag": "MainCamera",
+      "Components": [
+        {
+          "Name": "Transform (Component)",
+          "Parameters": {
+              "Transform": {
+                "serializedVersion": "2",
+                "m_LocalRotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "w": 1.0
+                },
+                "m_LocalPosition": {
+                  "x": 0.2,
+                  "y": 0.445,
+                  "z": -4.0
+                },
+                "m_LocalScale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "m_ConstrainProportionsScale": false,
+                "m_LocalEulerAnglesHint": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              }
+            }
+        },
+        {
+          "Name": "Camera (Component)",
+          "Parameters": {
+              "Camera": {
+                "m_Enabled": true,
+                "serializedVersion": "2",
+                "m_ClearFlags": 1,
+                "m_BackGroundColor": {
+                  "r": 0.97255,
+                  "g": 0.95686,
+                  "b": 0.92941,
+                  "a": 0.0
+                },
+                "m_projectionMatrixMode": 1,
+                "m_GateFitMode": 2,
+                "m_FOVAxisMode": 0,
+                "m_Iso": 200,
+                "m_ShutterSpeed": 0.005,
+                "m_Aperture": 16.0,
+                "m_FocusDistance": 10.0,
+                "m_FocalLength": 50.0,
+                "m_BladeCount": 5,
+                "m_Curvature": {
+                  "x": 2.0,
+                  "y": 11.0
+                },
+                "m_BarrelClipping": 0.25,
+                "m_Anamorphism": 0.0,
+                "m_SensorSize": {
+                  "x": 36.0,
+                  "y": 24.0
+                },
+                "m_LensShift": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "m_NormalizedViewPortRect": {
+                  "serializedVersion": "2",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "width": 1.0,
+                  "height": 1.0
+                },
+                "near clip plane": 0.2,
+                "far clip plane": 500.0,
+                "field of view": 40.0,
+                "orthographic": false,
+                "orthographic size": 10.0,
+                "m_Depth": -1.0,
+                "m_CullingMask": {
+                  "serializedVersion": "2",
+                  "m_Bits": 4294967295
+                },
+                "m_RenderingPath": -1,
+                "m_TargetTexture": {
+                  "instanceID": 0
+                },
+                "m_TargetDisplay": 0,
+                "m_TargetEye": 3,
+                "m_HDR": true,
+                "m_AllowMSAA": true,
+                "m_AllowDynamicResolution": false,
+                "m_ForceIntoRT": false,
+                "m_OcclusionCulling": true,
+                "m_StereoConvergence": 10.0,
+                "m_StereoSeparation": 0.022
+              }
+            }
+        },
+        {
+          "Name": "AudioListener (Component)",
+          "Parameters": {
+              "AudioListener": {
+                "m_Enabled": true
+              }
+            }
+        },
+        {
+          "Name": "CinemachineBrain (Component)",
+          "Parameters": {
+              "MonoBehaviour": {
+                "m_Enabled": true,
+                "m_EditorHideFlags": 0,
+                "m_Name": "",
+                "m_EditorClassIdentifier": "",
+                "m_ShowDebugText": false,
+                "m_ShowCameraFrustum": true,
+                "m_IgnoreTimeScale": false,
+                "m_WorldUpOverride": {
+                  "instanceID": 0
+                },
+                "m_UpdateMethod": 2,
+                "m_BlendUpdateMethod": 1,
+                "m_DefaultBlend": {
+                  "m_Style": 1,
+                  "m_Time": 2.0,
+                  "m_CustomCurve": {
+                    "serializedVersion": "2",
+                    "m_Curve": [],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 4
+                  }
+                },
+                "m_CustomBlends": {
+                  "instanceID": 0
+                },
+                "m_CameraCutEvent": {
+                  "m_PersistentCalls": {
+                    "m_Calls": []
+                  }
+                },
+                "m_CameraActivatedEvent": {
+                  "m_PersistentCalls": {
+                    "m_Calls": []
+                  }
+                }
+              }
+            }
+        },
+        {
+          "Name": "UniversalAdditionalCameraData (Component)",
+          "Parameters": {
+              "MonoBehaviour": {
+                "m_Enabled": true,
+                "m_EditorHideFlags": 0,
+                "m_Name": "",
+                "m_EditorClassIdentifier": "",
+                "m_RenderShadows": true,
+                "m_RequiresDepthTextureOption": 2,
+                "m_RequiresOpaqueTextureOption": 2,
+                "m_CameraType": 0,
+                "m_Cameras": [],
+                "m_RendererIndex": -1,
+                "m_VolumeLayerMask": {
+                  "serializedVersion": "2",
+                  "m_Bits": 1
+                },
+                "m_VolumeTrigger": {
+                  "instanceID": 0
+                },
+                "m_VolumeFrameworkUpdateModeOption": 2,
+                "m_RenderPostProcessing": false,
+                "m_Antialiasing": 0,
+                "m_AntialiasingQuality": 2,
+                "m_StopNaN": false,
+                "m_Dithering": false,
+                "m_ClearDepth": true,
+                "m_AllowXRRendering": true,
+                "m_AllowHDROutput": true,
+                "m_UseScreenCoordOverride": false,
+                "m_ScreenSizeOverride": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "w": 0.0
+                },
+                "m_ScreenCoordScaleBias": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "w": 0.0
+                },
+                "m_RequiresDepthTexture": false,
+                "m_RequiresColorTexture": false,
+                "m_Version": 2.0,
+                "m_TaaSettings": {
+                  "m_Quality": 3,
+                  "m_FrameInfluence": 0.1,
+                  "m_JitterScale": 1.0,
+                  "m_MipBias": 0.0,
+                  "m_VarianceClampScale": 0.9,
+                  "m_ContrastAdaptiveSharpening": 0.0
+                }
+              }
+            }
+        }
+      ],
+      "Children": []
+    },
+    {
+      "Name": "PlayerFollowCamera (GameObject)",
+      "Active": "True",
+      "Layer": "Default",
+      "Tag": "Untagged",
+      "Components": [
+        {
+          "Name": "Transform (Component)",
+          "Parameters": {
+              "Transform": {
+                "serializedVersion": "2",
+                "m_LocalRotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "w": 1.0
+                },
+                "m_LocalPosition": {
+                  "x": 0.2,
+                  "y": 0.445,
+                  "z": -4.0
+                },
+                "m_LocalScale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "m_ConstrainProportionsScale": false,
+                "m_LocalEulerAnglesHint": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              }
+            }
+        },
+        {
+          "Name": "CinemachineVirtualCamera (Component)",
+          "Parameters": {
+              "MonoBehaviour": {
+                "m_Enabled": true,
+                "m_EditorHideFlags": 0,
+                "m_Name": "",
+                "m_EditorClassIdentifier": "",
+                "m_ExcludedPropertiesInInspector": [
+                  "m_Script"
+                ],
+                "m_LockStageInInspector": [],
+                "m_StreamingVersion": 20170927,
+                "m_Priority": 10,
+                "m_StandbyUpdate": 2,
+                "m_LookAt": {
+                  "instanceID": 0
+                },
+                "m_Follow": {
+                  "fileID": 1654322001227874697,
+                  "guid": /NestedParentCapsule_Unpack.prefab,
+                  "type": 3
+                },
+                "m_Lens": {
+                  "FieldOfView": 40.0,
+                  "OrthographicSize": 10.0,
+                  "NearClipPlane": 0.2,
+                  "FarClipPlane": 500.0,
+                  "Dutch": 0.0,
+                  "ModeOverride": 0,
+                  "LensShift": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "GateFit": 2,
+                  "FocusDistance": 10.0,
+                  "m_SensorSize": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "Iso": 200,
+                  "ShutterSpeed": 0.005,
+                  "Aperture": 16.0,
+                  "BladeCount": 5,
+                  "Curvature": {
+                    "x": 2.0,
+                    "y": 11.0
+                  },
+                  "BarrelClipping": 0.25,
+                  "Anamorphism": 0.0
+                },
+                "m_Transitions": {
+                  "m_BlendHint": 0,
+                  "m_InheritPosition": false,
+                  "m_OnCameraLive": {
+                    "m_PersistentCalls": {
+                      "m_Calls": []
+                    }
+                  }
+                },
+                "m_LegacyBlendHint": 0,
+                "m_ComponentOwner": {
+                  "fileID": 3203261901554096028,
+                  "guid": /NestedParentCapsule_Unpack.prefab,
+                  "type": 3
+                }
+              }
+            }
+        }
+      ],
+      "Children": [
+        {
+          "Name": "cm (GameObject)",
+          "Active": "True",
+          "Layer": "Default",
+          "Tag": "Untagged",
+          "Components": [
+            {
+              "Name": "Transform (Component)",
+              "Parameters": {
+                    "Transform": {
+                      "serializedVersion": "2",
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      },
+                      "m_LocalPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_ConstrainProportionsScale": false,
+                      "m_LocalEulerAnglesHint": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    }
+                  }
+            },
+            {
+              "Name": "CinemachinePipeline (Component)",
+              "Parameters": {
+                    "MonoBehaviour": {
+                      "m_Enabled": true,
+                      "m_EditorHideFlags": 0,
+                      "m_Name": "",
+                      "m_EditorClassIdentifier": ""
+                    }
+                  }
+            },
+            {
+              "Name": "CinemachineBasicMultiChannelPerlin (Component)",
+              "Parameters": {
+                    "MonoBehaviour": {
+                      "m_Enabled": true,
+                      "m_EditorHideFlags": 0,
+                      "m_Name": "",
+                      "m_EditorClassIdentifier": "",
+                      "m_NoiseProfile": {
+                        "fileID": 11400000,
+                        "guid": s/Noise/Handheld_normal_mild.asset,
+                        "type": 2
+                      },
+                      "m_PivotOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_AmplitudeGain": 0.5,
+                      "m_FrequencyGain": 0.3,
+                      "mNoiseOffsets": {
+                        "x": -451.3796,
+                        "y": 684.7062,
+                        "z": 648.0488
+                      }
+                    }
+                  }
+            },
+            {
+              "Name": "Cinemachine3rdPersonFollow (Component)",
+              "Parameters": {
+                    "MonoBehaviour": {
+                      "m_Enabled": true,
+                      "m_EditorHideFlags": 0,
+                      "m_Name": "",
+                      "m_EditorClassIdentifier": "",
+                      "Damping": {
+                        "x": 0.1,
+                        "y": 0.25,
+                        "z": 0.3
+                      },
+                      "ShoulderOffset": {
+                        "x": 1.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "VerticalArmLength": 0.0,
+                      "CameraSide": 0.6,
+                      "CameraDistance": 4.0,
+                      "CameraCollisionFilter": {
+                        "serializedVersion": "2",
+                        "m_Bits": 1
+                      },
+                      "IgnoreTag": "Player",
+                      "CameraRadius": 0.15,
+                      "DampingIntoCollision": 0.0,
+                      "DampingFromCollision": 0.0
+                    }
+                  }
+            }
+          ],
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "PlayerCapsule (GameObject)",
+      "Active": "True",
+      "Layer": "",
+      "Tag": "Player",
+      "Components": [
+        {
+          "Name": "Transform (Component)",
+          "Parameters": {
+              "Transform": {
+                "serializedVersion": "2",
+                "m_LocalRotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "w": 1.0
+                },
+                "m_LocalPosition": {
+                  "x": 0.0,
+                  "y": -0.93,
+                  "z": 0.0
+                },
+                "m_LocalScale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "m_ConstrainProportionsScale": false,
+                "m_LocalEulerAnglesHint": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              }
+            }
+        },
+        {
+          "Name": "CharacterController (Component)",
+          "Parameters": {
+              "CharacterController": {
+                "m_Material": {
+                  "instanceID": 0
+                },
+                "m_IncludeLayers": {
+                  "serializedVersion": "2",
+                  "m_Bits": 0
+                },
+                "m_ExcludeLayers": {
+                  "serializedVersion": "2",
+                  "m_Bits": 0
+                },
+                "m_LayerOverridePriority": 0,
+                "m_ProvidesContacts": false,
+                "m_Enabled": true,
+                "serializedVersion": "3",
+                "m_Height": 1.8,
+                "m_Radius": 0.4,
+                "m_SlopeLimit": 45.0,
+                "m_StepOffset": 0.25,
+                "m_SkinWidth": 0.02,
+                "m_MinMoveDistance": 0.0,
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.93,
+                  "z": 0.0
+                }
+              }
+            }
+        },
+        {
+          "Name": "ThirdPersonController (Component)",
+          "Parameters": {
+              "MonoBehaviour": {
+                "m_Enabled": true,
+                "m_EditorHideFlags": 0,
+                "m_Name": "",
+                "m_EditorClassIdentifier": "",
+                "PunchRange": 2.0,
+                "PunchAngle": 60.0,
+                "PunchDamage": 10.0,
+                "MoveSpeed": 4.0,
+                "SprintSpeed": 6.0,
+                "RotationSmoothTime": 0.12,
+                "SpeedChangeRate": 10.0,
+                "Sensitivity": 1.0,
+                "LandingAudioClip": {
+                  "instanceID": 0
+                },
+                "FootstepAudioClips": [],
+                "FootstepAudioVolume": 0.5,
+                "JumpHeight": 1.2,
+                "Gravity": -15.0,
+                "JumpTimeout": 0.5,
+                "FallTimeout": 0.15,
+                "Grounded": true,
+                "GroundedOffset": -0.14,
+                "GroundedRadius": 0.28,
+                "GroundLayers": {
+                  "serializedVersion": "2",
+                  "m_Bits": 1
+                },
+                "CinemachineCameraTarget": {
+                  "fileID": 1654322001227874702,
+                  "guid": /NestedParentCapsule_Unpack.prefab,
+                  "type": 3
+                },
+                "TopClamp": 70.0,
+                "BottomClamp": -30.0,
+                "CameraAngleOverride": 0.0,
+                "LockCameraPosition": false
+              }
+            }
+        },
+        {
+          "Name": "BasicRigidBodyPush (Component)",
+          "Parameters": {
+              "MonoBehaviour": {
+                "m_Enabled": true,
+                "m_EditorHideFlags": 0,
+                "m_Name": "",
+                "m_EditorClassIdentifier": "",
+                "pushLayers": {
+                  "serializedVersion": "2",
+                  "m_Bits": 0
+                },
+                "canPush": false,
+                "strength": 1.1
+              }
+            }
+        },
+        {
+          "Name": "PlayerInput (Component)",
+          "Parameters": {
+              "MonoBehaviour": {
+                "m_Enabled": true,
+                "m_EditorHideFlags": 0,
+                "m_Name": "",
+                "m_EditorClassIdentifier": "",
+                "m_Actions": {
+                  "fileID": -944628639613478452,
+                  "guid": tSystem/StarterAssets.inputactions,
+                  "type": 3
+                },
+                "m_NotificationBehavior": 0,
+                "m_UIInputModule": {
+                  "instanceID": 0
+                },
+                "m_DeviceLostEvent": {
+                  "m_PersistentCalls": {
+                    "m_Calls": []
+                  }
+                },
+                "m_DeviceRegainedEvent": {
+                  "m_PersistentCalls": {
+                    "m_Calls": []
+                  }
+                },
+                "m_ControlsChangedEvent": {
+                  "m_PersistentCalls": {
+                    "m_Calls": []
+                  }
+                },
+                "m_ActionEvents": [
+                  {
+                    "m_PersistentCalls": {
+                      "m_Calls": [
+                        {
+                          "m_Target": {
+                            "fileID": 6341998657737914590,
+                            "guid": /NestedParentCapsule_Unpack.prefab,
+                            "type": 3
+                          },
+                          "m_TargetAssemblyTypeName": "",
+                          "m_MethodName": "InputMove",
+                          "m_Mode": 0,
+                          "m_Arguments": {
+                            "m_ObjectArgument": {
+                              "instanceID": 0
+                            },
+                            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                            "m_IntArgument": 0,
+                            "m_FloatArgument": 0.0,
+                            "m_StringArgument": "",
+                            "m_BoolArgument": false
+                          },
+                          "m_CallState": 2
+                        }
+                      ]
+                    },
+                    "m_ActionId": "6bc1aaf4-b110-4ff7-891e-5b9fe6f32c4d",
+                    "m_ActionName": "Player/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]"
+                  },
+                  {
+                    "m_PersistentCalls": {
+                      "m_Calls": [
+                        {
+                          "m_Target": {
+                            "fileID": 6341998657737914590,
+                            "guid": /NestedParentCapsule_Unpack.prefab,
+                            "type": 3
+                          },
+                          "m_TargetAssemblyTypeName": "",
+                          "m_MethodName": "InputLook",
+                          "m_Mode": 0,
+                          "m_Arguments": {
+                            "m_ObjectArgument": {
+                              "instanceID": 0
+                            },
+                            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                            "m_IntArgument": 0,
+                            "m_FloatArgument": 0.0,
+                            "m_StringArgument": "",
+                            "m_BoolArgument": false
+                          },
+                          "m_CallState": 2
+                        }
+                      ]
+                    },
+                    "m_ActionId": "2690c379-f54d-45be-a724-414123833eb4",
+                    "m_ActionName": "Player/Look[/Mouse/delta,/XInputControllerWindows/rightStick]"
+                  },
+                  {
+                    "m_PersistentCalls": {
+                      "m_Calls": [
+                        {
+                          "m_Target": {
+                            "fileID": 6341998657737914590,
+                            "guid": /NestedParentCapsule_Unpack.prefab,
+                            "type": 3
+                          },
+                          "m_TargetAssemblyTypeName": "",
+                          "m_MethodName": "InputJump",
+                          "m_Mode": 0,
+                          "m_Arguments": {
+                            "m_ObjectArgument": {
+                              "instanceID": 0
+                            },
+                            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                            "m_IntArgument": 0,
+                            "m_FloatArgument": 0.0,
+                            "m_StringArgument": "",
+                            "m_BoolArgument": false
+                          },
+                          "m_CallState": 2
+                        }
+                      ]
+                    },
+                    "m_ActionId": "8c4abdf8-4099-493a-aa1a-129acec7c3df",
+                    "m_ActionName": "Player/Jump[/Keyboard/space,/XInputControllerWindows/buttonSouth]"
+                  },
+                  {
+                    "m_PersistentCalls": {
+                      "m_Calls": [
+                        {
+                          "m_Target": {
+                            "fileID": 6341998657737914590,
+                            "guid": /NestedParentCapsule_Unpack.prefab,
+                            "type": 3
+                          },
+                          "m_TargetAssemblyTypeName": "",
+                          "m_MethodName": "InputSprint",
+                          "m_Mode": 0,
+                          "m_Arguments": {
+                            "m_ObjectArgument": {
+                              "instanceID": 0
+                            },
+                            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                            "m_IntArgument": 0,
+                            "m_FloatArgument": 0.0,
+                            "m_StringArgument": "",
+                            "m_BoolArgument": false
+                          },
+                          "m_CallState": 2
+                        }
+                      ]
+                    },
+                    "m_ActionId": "980e881e-182c-404c-8cbf-3d09fdb48fef",
+                    "m_ActionName": "Player/Sprint[/Keyboard/leftShift,/XInputControllerWindows/leftTrigger]"
+                  },
+                  {
+                    "m_PersistentCalls": {
+                      "m_Calls": []
+                    },
+                    "m_ActionId": "e4ce1614-c754-48c1-9103-33130441661f",
+                    "m_ActionName": "UI/New action"
+                  }
+                ],
+                "m_NeverAutoSwitchControlSchemes": false,
+                "m_DefaultControlScheme": "",
+                "m_DefaultActionMap": "Player",
+                "m_SplitScreenIndex": -1,
+                "m_Camera": {
+                  "instanceID": 0
+                }
+              }
+            }
+        },
+        {
+          "Name": "StarterAssetsInputs (Component)",
+          "Parameters": {
+              "MonoBehaviour": {
+                "m_Enabled": true,
+                "m_EditorHideFlags": 0,
+                "m_Name": "",
+                "m_EditorClassIdentifier": "",
+                "move": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "look": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "jump": false,
+                "sprint": false,
+                "aim": false,
+                "punch": false,
+                "cower": false,
+                "fire": false,
+                "analogMovement": false,
+                "cursorLocked": true,
+                "cursorInputForLook": true
+              }
+            }
+        }
+      ],
+      "Children": [
+        {
+          "Name": "PlayerCameraRoot (GameObject)",
+          "Active": "True",
+          "Layer": "Default",
+          "Tag": "CinemachineTarget",
+          "Components": [
+            {
+              "Name": "Transform (Component)",
+              "Parameters": {
+                    "Transform": {
+                      "serializedVersion": "2",
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      },
+                      "m_LocalPosition": {
+                        "x": 0.0,
+                        "y": 1.375,
+                        "z": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_ConstrainProportionsScale": false,
+                      "m_LocalEulerAnglesHint": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    }
+                  }
+            }
+          ],
+          "Children": []
+        },
+        {
+          "Name": "Capsule (GameObject)",
+          "Active": "True",
+          "Layer": "",
+          "Tag": "Untagged",
+          "Components": [
+            {
+              "Name": "Transform (Component)",
+              "Parameters": {
+                    "Transform": {
+                      "serializedVersion": "2",
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      },
+                      "m_LocalPosition": {
+                        "x": 0.0,
+                        "y": 0.9,
+                        "z": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 0.75,
+                        "y": 0.9,
+                        "z": 0.75
+                      },
+                      "m_ConstrainProportionsScale": false,
+                      "m_LocalEulerAnglesHint": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    }
+                  }
+            },
+            {
+              "Name": "MeshFilter (Component)",
+              "Parameters": {
+                    "MeshFilter": {
+                      "m_Mesh": {
+                        "fileID": 10208,
+                        "guid":  Library/unity default resources,
+                        "type": 0
+                      }
+                    }
+                  }
+            },
+            {
+              "Name": "MeshRenderer (Component)",
+              "Parameters": {
+                    "MeshRenderer": {
+                      "m_Enabled": true,
+                      "m_CastShadows": 1,
+                      "m_ReceiveShadows": true,
+                      "m_DynamicOccludee": true,
+                      "m_StaticShadowCaster": false,
+                      "m_MotionVectors": 1,
+                      "m_LightProbeUsage": 1,
+                      "m_ReflectionProbeUsage": 1,
+                      "m_RayTracingMode": 2,
+                      "m_RayTraceProcedural": false,
+                      "m_RayTracingAccelStructBuildFlagsOverride": false,
+                      "m_RayTracingAccelStructBuildFlags": 1,
+                      "m_SmallMeshCulling": true,
+                      "m_RenderingLayerMask": 1,
+                      "m_RendererPriority": 0,
+                      "m_Materials": [
+                        {
+                          "fileID": 2100000,
+                          "guid": ent/Art/Materials/GreyBlue_Mat.mat,
+                          "type": 2
+                        }
+                      ],
+                      "m_StaticBatchInfo": {
+                        "firstSubMesh": 0,
+                        "subMeshCount": 0
+                      },
+                      "m_StaticBatchRoot": {
+                        "instanceID": 0
+                      },
+                      "m_ProbeAnchor": {
+                        "instanceID": 0
+                      },
+                      "m_LightProbeVolumeOverride": {
+                        "instanceID": 0
+                      },
+                      "m_ScaleInLightmap": 1.0,
+                      "m_ReceiveGI": 1,
+                      "m_PreserveUVs": false,
+                      "m_IgnoreNormalsForChartDetection": false,
+                      "m_ImportantGI": false,
+                      "m_StitchLightmapSeams": true,
+                      "m_SelectedEditorRenderState": 3,
+                      "m_MinimumChartSize": 4,
+                      "m_AutoUVMaxDistance": 0.5,
+                      "m_AutoUVMaxAngle": 89.0,
+                      "m_LightmapParameters": {
+                        "instanceID": 0
+                      },
+                      "m_SortingLayerID": 0,
+                      "m_SortingLayer": 0,
+                      "m_SortingOrder": 0,
+                      "m_AdditionalVertexStreams": {
+                        "instanceID": 0
+                      }
+                    }
+                  }
+            },
+            {
+              "Name": "CapsuleCollider (Component)",
+              "Parameters": {
+                    "CapsuleCollider": {
+                      "m_Material": {
+                        "instanceID": 0
+                      },
+                      "m_IncludeLayers": {
+                        "serializedVersion": "2",
+                        "m_Bits": 0
+                      },
+                      "m_ExcludeLayers": {
+                        "serializedVersion": "2",
+                        "m_Bits": 0
+                      },
+                      "m_LayerOverridePriority": 0,
+                      "m_IsTrigger": false,
+                      "m_ProvidesContacts": false,
+                      "m_Enabled": true,
+                      "serializedVersion": "2",
+                      "m_Radius": 0.5,
+                      "m_Height": 2.0,
+                      "m_Direction": 1,
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    }
+                  }
+            }
+          ],
+          "Children": []
+        }
+      ]
+    }
+  ]
+}
