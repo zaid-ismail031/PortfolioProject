@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6894f105b4cc4bb418f099545e34623d, type: 3}
+  m_Name: AncientRuinsNarrativeRules
+  m_EditorClassIdentifier: 
+  ThemePreset: 0
+  Titles:
+  - Elder
+  - Sage
+  - Warden
+  - Knight
+  - Seer
+  FirstNames:
+  - Morwen
+  - Kael
+  - Thorne
+  - Lirien
+  - Arden
+  - Vessa
+  - Oren
+  - Mira
+  Roles:
+  - Guardian
+  - Scholar
+  - Warrior
+  - Healer
+  - Ranger
+  - Mystic
+  Traits:
+  - Brave
+  - Wise
+  - Cunning
+  - Ancient
+  - Mystical
+  - Loyal
+  - Cautious
+  - Fierce
+  BackstoryTemplates:
+  - Once a {role} of the old kingdom, {name} has spent years searching for {item}.
+  - '{name} was driven from their homeland by {enemy} and now seeks revenge.'
+  - A former {role}, {name} guards the {location} with unwavering dedication.
+  - '{name} discovered the secrets of {location} long ago and has never left.'
+  EnemyNames:
+  - Shadow Guardian
+  - Stone Golem
+  - Wraith
+  - Cave Troll
+  - Dark Sentinel
+  ItemNames:
+  - Ancient Tome
+  - Crystal Shard
+  - Golden Idol
+  - Runic Key
+  - Sacred Relic
+  LocationNames:
+  - Crypt
+  - Sanctum
+  - Chamber
+  - Library
+  - Vault
+  - Hall of Echoes
+  QuestNameTemplates:
+  - The Fallen {enemy}
+  - Secrets of the {location}
+  - The Lost {item}
+  - Wrath of the {enemy}
+  - The {location} Prophecy
+  TalkAndKillStep1:
+  - Speak to {npc} in the {location} about the growing threat.
+  - Consult {npc} about the {enemy} sightings near the {location}.
+  TalkAndKillStep2:
+  - Slay the {enemy} lurking in the {location}.
+  - Hunt down the {enemy} that has taken over the {location}.
+  FetchAndDeliverStep1:
+  - Retrieve the {item} from deep within the {location}.
+  - Find the {item} hidden in the {location}.
+  FetchAndDeliverStep2:
+  - Deliver the {item} to {npc} in the {location}.
+  - Bring the {item} back to {npc} before the {enemy} finds it.
+  ExploreAndReportStep1:
+  - Explore the {location} beyond the sealed door.
+  - Scout the {location} for signs of the {enemy}.
+  ExploreAndReportStep2:
+  - Report your findings to {npc}.
+  - Return to {npc} with news of the {location}.
+  EnvironmentalNoteTemplates:
+  - 'A crumbling note reads: The {enemy} was last seen near the {location}.'
+  - 'Scratched into the wall: Beware the {location}. The {item} lies within.'
+  - 'A journal entry: Day 47. The {enemy} grows stronger. We cannot hold the {location}.'
+  - 'Faded writing: Whoever finds this, the {item} must not fall into the wrong hands.'
+  - 'A warning carved in stone: Turn back. The {location} belongs to the {enemy}
+    now.'

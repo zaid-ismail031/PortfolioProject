@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa20f612222e4c4990756791a7c2fa8, type: 3}
+  m_Name: AncientRuins
+  m_EditorClassIdentifier: 
+  ThemeName: AncientRuins
+  NarrativeTheme: 0
+  NarrativeRules: {fileID: 11400000, guid: da5b44762c2275e43881509d7691a1f5, type: 2}
+  TerrainLayers:
+  - {fileID: 8574412962073106934, guid: dc4c4af7a3f9af2408885db550b64a11, type: 2}
+  TerrainFrequency: 0.005
+  TerrainAmplitude: 1
+  TerrainOctaves: 4
+  TerrainHeight: 50
+  FloorPrefab: {fileID: 25434127162361253, guid: bf80858ac336a4c47973edd6d069ee38, type: 3}
+  WallPrefab: {fileID: 5297581333119832324, guid: 63662dc3bff0fbc4caea04be5822bc97, type: 3}
+  CorridorPrefab: {fileID: 0}
+  StartMarkerPrefab: {fileID: 1658680792042249092, guid: d2b6a342a3a1a7a45a69e7356e75e61e, type: 3}
+  GoalMarkerPrefab: {fileID: 4427935506642465664, guid: e1806c9e8a4aaaa4b97cf81f99c3f6c6, type: 3}
+  PropPrefabs:
+  - {fileID: 6871953885809301199, guid: 66835405db591454a9031f7163b9ca47, type: 3}
+  - {fileID: 2455139026258750306, guid: fcb147e9783f9e545a53c761773e053c, type: 3}
+  - {fileID: 5218104908808476191, guid: 6ba9fa78c2b128d4ca9d3c9b559ceb51, type: 3}
+  - {fileID: 8134906194669237816, guid: 13636e41ff4642d4287d07ef61c0b27c, type: 3}
+  - {fileID: 502257176897152769, guid: f0cb175e38e8f5644b7791362fc43539, type: 3}
+  - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+  - {fileID: 937068111446096652, guid: a7159e697d5beaf4ab2f1398331828aa, type: 3}
+  PropsPerRoom: 3
+  PropYOffset: 0.2
+  AmbientColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+  DirectionalLightColor: {r: 0.7137621, g: 0.87169814, b: 0.51150584, a: 1}
+  DirectionalLightIntensity: 0.87
+  EnableFog: 1
+  FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  FogDensity: 0.02
+  SkyboxMaterial: {fileID: 2100000, guid: 34ed9187276c9034297ef86421766ab5, type: 2}

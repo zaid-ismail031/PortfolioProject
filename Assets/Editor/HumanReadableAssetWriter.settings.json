@@ -1,0 +1,9 @@
+{
+  "RoundFloatingPointNumbers": true,
+  "FixJsonIndentation": true,
+  "ResolveGuids": true,
+  "IncludeParticleSystems": false,
+  "ChangeIndentationFrom4To2Spaces": true,
+  "LogFileWrites": false,
+  "AssetPathsToIgnore": "Assets/Keystone/*,Assets/Vehicles/EpirocBoomerM20/Art/*,Assets/World/*"
+}

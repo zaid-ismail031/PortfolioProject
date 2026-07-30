@@ -1,4 +1,4 @@
-using Unity.Cinemachine;
+using Cinemachine;
 using StarterAssets;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,7 +9,7 @@ namespace DIGA7009A
   {
     [Header( "Camera" )]
     [SerializeField]
-    private CinemachineCamera AimVirtualCamera;
+    private CinemachineVirtualCamera AimVirtualCamera;
 
     [Header( "Camera Sensitivity" )]
     [SerializeField]

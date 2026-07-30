@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6894f105b4cc4bb418f099545e34623d, type: 3}
+  m_Name: LabNarrativeRules
+  m_EditorClassIdentifier: 
+  ThemePreset: 1
+  Titles:
+  - Dr.
+  - Professor
+  - Nurse
+  - Researcher
+  - Director
+  FirstNames:
+  - Chen
+  - Patel
+  - Reeves
+  - Okoro
+  - Tanaka
+  - Fischer
+  - Kim
+  - Vasquez
+  Roles:
+  - Surgeon
+  - Virologist
+  - Pharmacist
+  - Pathologist
+  - Nurse
+  - Geneticist
+  Traits:
+  - Meticulous
+  - Obsessive
+  - Compassionate
+  - Cold
+  - Brilliant
+  - Paranoid
+  - Stoic
+  - Erratic
+  BackstoryTemplates:
+  - '{name}, a former {role}, was reassigned to {location} after the incident with
+    {item}.'
+  - '{name} has been studying {enemy} for decades and fears the worst.'
+  - After losing a colleague to {enemy}, {name} refuses to leave the {location}.
+  - '{name} was the last {role} to see the {item} before the outbreak.'
+  EnemyNames:
+  - Mutant Subject
+  - Rogue AI
+  - Infected Host
+  - Failed Experiment
+  - Bio-Drone
+  ItemNames:
+  - Blood Sample
+  - Research Data
+  - Antidote Vial
+  - Neural Implant
+  - Specimen Jar
+  LocationNames:
+  - Operating Theater
+  - Quarantine Wing
+  - Research Lab
+  - Cold Storage
+  - Server Room
+  - Decontamination Bay
+  QuestNameTemplates:
+  - Patient Zero
+  - Containment Protocol
+  - The {item} Experiment
+  - 'Code Black: {location}'
+  - Trial {enemy}
+  TalkAndKillStep1:
+  - Consult {npc} in the {location} about the escaped subject.
+  - Debrief with {npc} on the status of the {enemy}.
+  TalkAndKillStep2:
+  - Terminate the {enemy} in the {location} before it spreads.
+  - Neutralize the {enemy} that breached the {location}.
+  FetchAndDeliverStep1:
+  - Recover the {item} from the contaminated {location}.
+  - Locate the {item} left behind in the {location}.
+  FetchAndDeliverStep2:
+  - Deliver the {item} to {npc} in the {location} for analysis.
+  - Bring the {item} to {npc} before the contamination worsens.
+  ExploreAndReportStep1:
+  - Investigate the {location} for signs of contamination.
+  - Survey the {location} after the recent breach.
+  ExploreAndReportStep2:
+  - Report contamination levels to {npc}.
+  - Relay your findings to {npc} in the {location}.
+  EnvironmentalNoteTemplates:
+  - 'A clipboard reads: Subject 47 escaped the {location}. Terminate on sight.'
+  - 'Scrawled on a whiteboard: DO NOT open {location}. Containment breach imminent.'
+  - 'A lab report: {item} readings are off the charts near {location}.'
+  - 'Sticky note: {enemy} sighted in corridor B. Lock the {location}.'
+  - 'A torn page: If you are reading this, the {enemy} has already reached the {location}.'

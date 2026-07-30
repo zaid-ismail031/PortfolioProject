@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa20f612222e4c4990756791a7c2fa8, type: 3}
+  m_Name: TheOffice
+  m_EditorClassIdentifier: 
+  ThemeName: The Office
+  NarrativeTheme: 2
+  NarrativeRules: {fileID: 11400000, guid: d7bbbb242a5ca2642b3ada1c07110847, type: 2}
+  TerrainLayers: []
+  TerrainFrequency: 0.005
+  TerrainAmplitude: 1
+  TerrainOctaves: 4
+  TerrainHeight: 50
+  FloorPrefab: {fileID: 25434127162361253, guid: ad21f59d9b11a694c96d0a357914a0b9, type: 3}
+  WallPrefab: {fileID: 5297581333119832324, guid: 3e39faa0798bf0746886ad65b3de9aed, type: 3}
+  CorridorPrefab: {fileID: 0}
+  StartMarkerPrefab: {fileID: 919132149155446097, guid: 9c048df0a7bad9d40946e38fa0aa158b, type: 3}
+  GoalMarkerPrefab: {fileID: 919132149155446097, guid: 4e7b2ade06ebc8c4d8d84d8007c1d4d1, type: 3}
+  PropPrefabs:
+  - {fileID: 5039469414312690212, guid: 420cebfd60a3b144f9364e770a9572e8, type: 3}
+  - {fileID: 919132149155446097, guid: 9c048df0a7bad9d40946e38fa0aa158b, type: 3}
+  - {fileID: 919132149155446097, guid: 60f43ce6b1b4fbe41ba1bea7d9b8c3f5, type: 3}
+  PropsPerRoom: 1
+  PropYOffset: 0.5
+  AmbientColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  DirectionalLightColor: {r: 0.86966896, g: 0.9622642, b: 0.9515193, a: 1}
+  DirectionalLightIntensity: 1
+  EnableFog: 0
+  FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  FogDensity: 0.02
+  SkyboxMaterial: {fileID: 2100000, guid: e4a49a9f7048c7d4383d4e8a39ccc20f, type: 2}

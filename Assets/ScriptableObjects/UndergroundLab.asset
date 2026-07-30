@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa20f612222e4c4990756791a7c2fa8, type: 3}
+  m_Name: UndergroundLab
+  m_EditorClassIdentifier: 
+  ThemeName: Lab
+  NarrativeTheme: 1
+  NarrativeRules: {fileID: 11400000, guid: 3a439c0c6f2691447a6c9f3f3f63d8a3, type: 2}
+  TerrainLayers:
+  - {fileID: 8574412962073106934, guid: a579e897aa6ba004ab0e04fa3053263a, type: 2}
+  TerrainFrequency: 0.005
+  TerrainAmplitude: 1
+  TerrainOctaves: 4
+  TerrainHeight: 50
+  FloorPrefab: {fileID: 25434127162361253, guid: ce072588cfd15bc478d684a28df3519d, type: 3}
+  WallPrefab: {fileID: 5297581333119832324, guid: da85bb41044cd1448ad4d90f534d43ea, type: 3}
+  CorridorPrefab: {fileID: 0}
+  StartMarkerPrefab: {fileID: 1370536605321993867, guid: 73dd7a893b9f3b547a73fc800af96e4f, type: 3}
+  GoalMarkerPrefab: {fileID: 0}
+  PropPrefabs:
+  - {fileID: 1043346862074072, guid: eeefdd9044a28504abd5e39c9e8fe5d0, type: 3}
+  - {fileID: 5288641984764200874, guid: 2ca85dfd1a5ba8d45b36c20053b13142, type: 3}
+  PropsPerRoom: 1
+  PropYOffset: 0.2
+  AmbientColor: {r: 0.5773585, g: 0.3605767, b: 0.3605767, a: 1}
+  DirectionalLightColor: {r: 1, g: 1, b: 1, a: 1}
+  DirectionalLightIntensity: 1
+  EnableFog: 1
+  FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  FogDensity: 0.01
+  SkyboxMaterial: {fileID: 2100000, guid: 43cdcd112cf65e04fa96acd64943709f, type: 2}

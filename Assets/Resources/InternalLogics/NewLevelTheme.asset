@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa20f612222e4c4990756791a7c2fa8, type: 3}
+  m_Name: NewLevelTheme
+  m_EditorClassIdentifier: 
+  ThemeName: 
+  NarrativeTheme: 2
+  NarrativeRules: {fileID: 0}
+  TerrainLayers: []
+  TerrainFrequency: 0.005
+  TerrainAmplitude: 1
+  TerrainOctaves: 4
+  TerrainHeight: 50
+  FloorPrefab: {fileID: 0}
+  WallPrefab: {fileID: 0}
+  CorridorPrefab: {fileID: 0}
+  StartMarkerPrefab: {fileID: 0}
+  GoalMarkerPrefab: {fileID: 0}
+  PropPrefabs: []
+  PropsPerRoom: 3
+  PropYOffset: 0.5
+  AmbientColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  DirectionalLightColor: {r: 1, g: 1, b: 1, a: 1}
+  DirectionalLightIntensity: 1
+  EnableFog: 0
+  FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  FogDensity: 0.02
+  SkyboxMaterial: {fileID: 0}

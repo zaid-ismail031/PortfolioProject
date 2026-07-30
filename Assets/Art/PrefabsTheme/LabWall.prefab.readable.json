@@ -1,0 +1,185 @@
+h—{
+  "Name": "LabWall (GameObject)",
+  "Active": "True",
+  "Layer": "Default",
+  "Tag": "Untagged",
+  "Components": [
+    {
+      "Name": "Transform (Component)",
+      "Parameters": {
+        "Transform": {
+          "serializedVersion": "2",
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_ConstrainProportionsScale": false,
+          "m_LocalEulerAnglesHint": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "Children": [
+    {
+      "Name": "Wall (GameObject)",
+      "Active": "True",
+      "Layer": "Default",
+      "Tag": "Untagged",
+      "Components": [
+        {
+          "Name": "Transform (Component)",
+          "Parameters": {
+              "Transform": {
+                "serializedVersion": "2",
+                "m_LocalRotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "w": 1.0
+                },
+                "m_LocalPosition": {
+                  "x": 0.0,
+                  "y": 1.9,
+                  "z": 0.0
+                },
+                "m_LocalScale": {
+                  "x": 1.0,
+                  "y": 4.0,
+                  "z": 1.0
+                },
+                "m_ConstrainProportionsScale": false,
+                "m_LocalEulerAnglesHint": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              }
+            }
+        },
+        {
+          "Name": "MeshFilter (Component)",
+          "Parameters": {
+              "MeshFilter": {
+                "m_Mesh": {
+                  "fileID": 10202,
+                  "guid":  Library/unity default resources,
+                  "type": 0
+                }
+              }
+            }
+        },
+        {
+          "Name": "MeshRenderer (Component)",
+          "Parameters": {
+              "MeshRenderer": {
+                "m_Enabled": true,
+                "m_CastShadows": 1,
+                "m_ReceiveShadows": true,
+                "m_DynamicOccludee": true,
+                "m_StaticShadowCaster": false,
+                "m_MotionVectors": 1,
+                "m_LightProbeUsage": 1,
+                "m_ReflectionProbeUsage": 1,
+                "m_RayTracingMode": 2,
+                "m_RayTraceProcedural": false,
+                "m_RayTracingAccelStructBuildFlagsOverride": false,
+                "m_RayTracingAccelStructBuildFlags": 1,
+                "m_SmallMeshCulling": true,
+                "m_RenderingLayerMask": 1,
+                "m_RendererPriority": 0,
+                "m_Materials": [
+                  {
+                    "fileID": 2100000,
+                    "guid": res/TerrainTextures/TilesWalls.mat,
+                    "type": 2
+                  }
+                ],
+                "m_StaticBatchInfo": {
+                  "firstSubMesh": 0,
+                  "subMeshCount": 0
+                },
+                "m_StaticBatchRoot": {
+                  "instanceID": 0
+                },
+                "m_ProbeAnchor": {
+                  "instanceID": 0
+                },
+                "m_LightProbeVolumeOverride": {
+                  "instanceID": 0
+                },
+                "m_ScaleInLightmap": 1.0,
+                "m_ReceiveGI": 1,
+                "m_PreserveUVs": false,
+                "m_IgnoreNormalsForChartDetection": false,
+                "m_ImportantGI": false,
+                "m_StitchLightmapSeams": true,
+                "m_SelectedEditorRenderState": 3,
+                "m_MinimumChartSize": 4,
+                "m_AutoUVMaxDistance": 0.5,
+                "m_AutoUVMaxAngle": 89.0,
+                "m_LightmapParameters": {
+                  "instanceID": 0
+                },
+                "m_SortingLayerID": 0,
+                "m_SortingLayer": 0,
+                "m_SortingOrder": 0,
+                "m_AdditionalVertexStreams": {
+                  "instanceID": 0
+                }
+              }
+            }
+        },
+        {
+          "Name": "BoxCollider (Component)",
+          "Parameters": {
+              "BoxCollider": {
+                "m_Material": {
+                  "instanceID": 0
+                },
+                "m_IncludeLayers": {
+                  "serializedVersion": "2",
+                  "m_Bits": 0
+                },
+                "m_ExcludeLayers": {
+                  "serializedVersion": "2",
+                  "m_Bits": 0
+                },
+                "m_LayerOverridePriority": 0,
+                "m_IsTrigger": false,
+                "m_ProvidesContacts": false,
+                "m_Enabled": true,
+                "serializedVersion": "3",
+                "m_Size": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              }
+            }
+        }
+      ],
+      "Children": []
+    }
+  ]
+}

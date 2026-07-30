@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Unity.Cinemachine;
+using Cinemachine;
 using StarterAssets;
 
 namespace DIGA7009A.Tools
@@ -9,7 +9,7 @@ namespace DIGA7009A.Tools
   public class CameraSwitcher : MonoBehaviour
   {
     [SerializeField]
-    private List<CinemachineCamera> VirtualCameras = new List<CinemachineCamera>();
+    private List<CinemachineVirtualCamera> VirtualCameras = new List<CinemachineVirtualCamera>();
 
     [SerializeField]
     private List<PlayerInput> PlayerInputs = new List<PlayerInput>();
@@ -62,7 +62,7 @@ namespace DIGA7009A.Tools
       }
     }
 
-    public CinemachineCamera GetActiveVirtualCamera()
+    public CinemachineVirtualCamera GetActiveVirtualCamera()
     {
       return VirtualCameras[ activeCameraIndex ];
     }

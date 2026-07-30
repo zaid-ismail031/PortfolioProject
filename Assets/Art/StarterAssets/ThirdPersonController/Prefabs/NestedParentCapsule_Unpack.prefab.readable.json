@@ -1,4 +1,4 @@
-T²;({
+Yúˆ}{
   "Name": "NestedParentCapsule_Unpack (GameObject)",
   "Active": "True",
   "Layer": "Default",
@@ -327,17 +327,7 @@ T²;({
                   "m_SensorSize": {
                     "x": 1.0,
                     "y": 1.0
-                  },
-                  "Iso": 200,
-                  "ShutterSpeed": 0.005,
-                  "Aperture": 16.0,
-                  "BladeCount": 5,
-                  "Curvature": {
-                    "x": 2.0,
-                    "y": 11.0
-                  },
-                  "BarrelClipping": 0.25,
-                  "Anamorphism": 0.0
+                  }
                 },
                 "m_Transitions": {
                   "m_BlendHint": 0,
